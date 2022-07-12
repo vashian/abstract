@@ -104,7 +104,8 @@ body {
   margin-bottom: 1.6rem;
 }
 
-h1 {
+h1,
+h2 {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
