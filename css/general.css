@@ -105,7 +105,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -135,4 +136,22 @@ h2 {
 .btn--full:hover,
 .btn--full:active {
   background-color: #7b63f1;
+}
+
+.grid {
+  display: grid;
+  column-gap: 7.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #2b2b52;
 }
