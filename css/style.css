@@ -335,7 +335,7 @@
 .pricing-box {
   margin: 0 auto;
   padding: 0 2.4rem;
-  height: 100px;
+  height: auto;
   max-width: 112.8rem;
 }
 
@@ -364,4 +364,51 @@
   color: #95a1bc;
   font-size: 2rem;
   line-height: 3rem;
+  font-weight: 300;
 }
+
+.pricing-button {
+  display: block;
+  margin-bottom: 6.4rem;
+  margin-top: -3.6rem;
+  text-align: center;
+  color: #95a1bc;
+  font-size: 1.6rem;
+}
+
+label {
+  align-items: center;
+  display: inline-flex;
+  user-select: none;
+}
+
+label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.tu {
+  display: block;
+  min-width: 6rem;
+  width: 6rem;
+  width: 6rem;
+  height: 3.2rem;
+  border-radius: 1.6rem;
+  background-color: #95a1bc;
+  /* position: absolute; */
+  cursor: pointer;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+label input:checked + .tu {
+  background-color: #8e79fc;
+}
+
+label input:on
