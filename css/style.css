@@ -382,13 +382,13 @@ label {
   user-select: none;
 }
 
-label input {
+/* label input {
   opacity: 0;
   width: 0;
   height: 0;
-}
+} */
 
-.tu {
+/* .tu {
   display: block;
   min-width: 6rem;
   width: 6rem;
@@ -397,18 +397,71 @@ label input {
   border-radius: 1.6rem;
   background-color: #95a1bc;
   /* position: absolute; */
-  cursor: pointer;
-  /* top: 0;
+/* cursor: pointer; */
+/* top: 0;
   left: 0;
   right: 0;
   bottom: 0; */
 
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
+/* -webkit-transition: 0.4s; */
+/* transition: 0.4s; */
+/* } */
 
-label input:checked + .tu {
+/* label input:checked + .tu {
   background-color: #8e79fc;
+} */
+
+/**************************/
+/*        FOOTER          */
+/**************************/
+
+.ri {
+  color: #95a1bc;
+  padding: 6.4rem 0;
 }
 
-label input:on
+.rs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2.4rem;
+  font-size: 1.4rem;
+  /* line-height: 2.2rem; */
+}
+
+.rs a {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #8e79fc;
+}
+
+.rl {
+  margin-right: -1.6rem;
+}
+.rl ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.rl li {
+  padding: 0 0.8rem;
+  width: 4.8rem;
+  height: 3.2rem;
+}
+
+.rl a {
+  padding: 0.8rem;
+  display: flex;
+}
+
+.rl a svg {
+  fill: #8e79fc;
+}
+
+.ro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
