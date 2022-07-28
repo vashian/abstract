@@ -412,11 +412,70 @@ label {
 } */
 
 /**************************/
+/*        PORTA           */
+/**************************/
+.section-porta {
+  background-color: #f2f6fe;
+}
+
+.porta {
+  padding: 6.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.porta::before,
+.porta::after {
+  content: '';
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  height: 0.1rem;
+  display: block;
+  background: #d9e0f0;
+}
+
+.porta::before {
+  top: 0;
+}
+
+.porta::after {
+  bottom: 0;
+}
+
+.cta-porta a {
+  display: inline-flex;
+  color: #fff;
+  background-color: #8e79fc;
+  padding: 1.2rem 3rem;
+  height: 4.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  transition: 0.3s all;
+  font-weight: 500;
+  line-height: 2.6rem;
+  font-size: 1.4rem;
+}
+
+.cta-porta a:hover {
+  background-color: #7c6efc;
+}
+/**************************/
 /*        FOOTER          */
 /**************************/
 
 .footer {
-  background-color: #f0f5fd;
+  background-color: #f2f6fe;
 }
 .ri {
   color: #95a1bc;
@@ -461,7 +520,7 @@ label {
 
 .rl a svg {
   fill: #8e79fc;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .ro {
@@ -487,7 +546,7 @@ label {
   text-decoration: none;
   padding: 0 1.2rem;
   display: flex;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .rl a:hover svg,
@@ -497,5 +556,5 @@ label {
 
 .st a:hover,
 .st a:active {
-  color: #8E79FC;
+  color: #8e79fc;
 }

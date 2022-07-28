@@ -166,7 +166,7 @@ h4 {
 
 .padding-right-left {
   padding: 0 2.4rem;
-  height: 10rem;
+  /* height: 10rem; */
 }
 
 .h {
@@ -176,7 +176,7 @@ h4 {
 
 .h-auto {
   height: auto;
-} 
+}
 
 .footer {
   font-weight: 300;
