@@ -415,6 +415,9 @@ label {
 /*        FOOTER          */
 /**************************/
 
+.footer {
+  background-color: #f0f5fd;
+}
 .ri {
   color: #95a1bc;
   padding: 6.4rem 0;
@@ -458,10 +461,41 @@ label {
 
 .rl a svg {
   fill: #8e79fc;
+  transition: .3s all;
 }
 
 .ro {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.rc {
+  order: 1;
+  margin-right: -1.2rem;
+}
+
+.st {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.rc a {
+  color: #95a1bc;
+  text-decoration: none;
+  padding: 0 1.2rem;
+  display: flex;
+  transition: all .3s;
+}
+
+.rl a:hover svg,
+.rl a:active svg {
+  fill: #8f79fca5;
+}
+
+.st a:hover,
+.st a:active {
+  color: #8E79FC;
 }
