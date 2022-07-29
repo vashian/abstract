@@ -538,6 +538,11 @@ label {
   text-decoration: none;
   color: #8e79fc;
 }
+
+.testimonial-item-footer a:hover {
+  text-decoration: underline !important;
+}
+
 /**************************/
 /*        PORTA           */
 /**************************/
