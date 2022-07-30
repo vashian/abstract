@@ -69,7 +69,7 @@ Font sizes (px):
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.5rem rgba(230, 125, 34, 0.499);
+  box-shadow: 0 0 0 0.5rem rgba(142, 121, 252, 0.499);
 }
 
 html {
